@@ -143,11 +143,11 @@
                                     limbs.RightLowerLeg_RightFoot.To = Vector2.new(RF.X, RF.Y)
                                 end
             
-                                if limbs.Head_UpperTorso.Visible ~= true then
+                                if limbs.Head_UpperTorso.Visible ~= value then
                                     Visibility(true)
                                 end
                             else 
-                                if limbs.Head_UpperTorso.Visible ~= false then
+                                if limbs.Head_UpperTorso.Visible ~= value then
                                     Visibility(false)
                                 end
                             end
@@ -230,11 +230,11 @@
                                     limbs.RightLeg_LowerTorso.To = Vector2.new(RUL.X, RUL.Y)
                                 end
             
-                                if limbs.Head_Spine.Visible ~= true then
+                                if limbs.Head_Spine.Visible ~= value then
                                     Visibility(true)
                                 end
                             else 
-                                if limbs.Head_Spine.Visible ~= false then
+                                if limbs.Head_Spine.Visible ~= value then
                                     Visibility(false)
                                 end
                             end
