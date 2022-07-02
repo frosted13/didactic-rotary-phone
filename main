@@ -68,7 +68,7 @@ local LoadCharacter = function(v)
 	b.Parent = vHolder
 	local t = NameTag:Clone()
 	t.Name = v.Name .. "NameTag"
-	t.Enabled = true
+	t.Enabled = value
 	t.Parent = vHolder
 	t.Adornee = v.Character:WaitForChild("Head", 5)
 	if not t.Adornee then
