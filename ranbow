@@ -26,7 +26,7 @@ end
 
 local function Vis(lib, state)
     for i, v in pairs(lib) do
-        v.Visible = value
+        v.Visible = true
     end
 end
 
